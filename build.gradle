@@ -24,10 +24,16 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	
+<<<<<<< HEAD
 	
 	//jstl
 	implementation group: 'jakarta.servlet.jsp.jstl', name: 'jakarta.servlet.jsp.jstl-api', version: '3.0.0'
 		
+=======
+	//jstl
+	implementation group: 'jakarta.servlet.jsp.jstl', name: 'jakarta.servlet.jsp.jstl-api', version: '3.0.0'
+	
+>>>>>>> refs/remotes/origin/master
 	//tomcat-jsp
 	implementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '10.1.19'
 }
