@@ -28,4 +28,11 @@ public class HomeController {
 		
 		return "id-class";
 	}
+	
+	@GetMapping("/layout")
+	public String layout() {
+		
+		
+		return "layout";
+	}
 }
