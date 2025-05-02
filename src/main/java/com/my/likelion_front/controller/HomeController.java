@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HomeController {
-<<<<<<< HEAD
+
 	
 	
 	@GetMapping("/restapi")
@@ -56,42 +56,4 @@ public class HomeController {
 		return "layout";
 	}
 	
-	
-	
-	
-	
-	
-	
-=======
-
-	
-	
-	@GetMapping("/")
-	public String home() {
-		
-		
-		return "home";
-	}
-	
-	@GetMapping("/login")
-	public String login() {
-		
-		
-		return "login";
-	}
-	
-	@GetMapping("/ic")
-	public String ic() {
-		
-		
-		return "id-class";
-	}
-	
-	@GetMapping("/layout")
-	public String layout() {
-		
-		
-		return "layout";
-	}
->>>>>>> refs/remotes/origin/master
 }
