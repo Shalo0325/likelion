@@ -8,11 +8,16 @@
 </head>
 <body>
 
+<<<<<<< HEAD
 	<h2>명진</h2>
 
 	
 	
 	
+=======
+
+	<h2>Login Page~</h2>
+>>>>>>> refs/remotes/origin/master
 	
 	
 </body>

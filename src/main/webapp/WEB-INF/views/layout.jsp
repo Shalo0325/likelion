@@ -8,6 +8,7 @@
 </head>
 <body style="position: relative;">
 
+<<<<<<< HEAD
 	<h2>Flex</h2>
 	
 	<div style="width: 300px;height: 150px;background: blue;
@@ -28,6 +29,25 @@
 		<div style="width: 50px;height: 50px;background: black;position: absolute;top:0px;right: 20px;"></div>
 	</div>
 	
+=======
+	
+	<h2>Flex</h2>
+		<div style="width:300px;height:150px;background:blue;
+		color:white;display:flex;flex-direction:row;justify-content: center;align-items: center;">
+		 <span style="margin-top:40px;">Login</span>
+	</div>
+	
+	<h2>Position</h2>
+	<div style="width:200px;height:250px;background: green;position: relative;">
+		<div style="width:100px;height:100px;background: red;"></div>
+		<div style="width:70px;height:70px;background: blue;position: absolute;top:0px;right:0px;"></div>
+	</div>
+	
+	
+	<div style="width:300px;height:150px;background: gray;">
+		<div style=" width:50px;height:50px;background: black;position: absolute;top:0px;right:0px;"></div>
+	</div>>
+>>>>>>> refs/remotes/origin/master
 	
 	
 </body>
