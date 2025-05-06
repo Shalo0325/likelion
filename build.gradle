@@ -1,0 +1,57 @@
+plugins {
+	id 'java'
+	id 'war'
+	id 'org.springframework.boot' version '3.4.4'
+	id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'com.my'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+<<<<<<< HEAD
+
+	//jstl
+	implementation group: 'jakarta.servlet.jsp.jstl', name: 'jakarta.servlet.jsp.jstl-api', version: '3.0.0'
+		
+=======
+	
+<<<<<<< HEAD
+	
+	//jstl
+	implementation group: 'jakarta.servlet.jsp.jstl', name: 'jakarta.servlet.jsp.jstl-api', version: '3.0.0'
+		
+=======
+<<<<<<< HEAD
+	
+	//jstl
+	implementation group: 'jakarta.servlet.jsp.jstl', name: 'jakarta.servlet.jsp.jstl-api', version: '3.0.0'
+		
+=======
+	//jstl
+	implementation group: 'jakarta.servlet.jsp.jstl', name: 'jakarta.servlet.jsp.jstl-api', version: '3.0.0'
+	
+>>>>>>> refs/remotes/origin/master
+>>>>>>> refs/remotes/origin/master
+>>>>>>> refs/remotes/origin-2/master
+	//tomcat-jsp
+	implementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '10.1.19'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
